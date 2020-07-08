@@ -36,3 +36,6 @@
 /Users/sungjbyun/asp.net-webapp-hplussport.api/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll
 /Users/sungjbyun/asp.net-webapp-hplussport.api/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
 /Users/sungjbyun/asp.net-webapp-hplussport.api/obj/Debug/netcoreapp3.1/asp.net-webapp-hplussport.api.csproj.CopyComplete
+/Users/sungjbyun/asp.net-webapp-hplussport.api/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Mvc.Versioning.dll
+/Users/sungjbyun/asp.net-webapp-hplussport.api/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+/Users/sungjbyun/asp.net-webapp-hplussport.api/obj/Debug/netcoreapp3.1/asp.net-webapp-hplussport.api.MvcApplicationPartsAssemblyInfo.cs

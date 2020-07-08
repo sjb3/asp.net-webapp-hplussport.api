@@ -8,12 +8,15 @@ using Microsoft.EntityFrameworkCore;
 
 namespace HPlusSport.API.Controllers
 {
-  [Route("[controller]")]
+  [ApiVersion("1.0")]
+  // Update with  options.ApiVersionReader in Startup.cs
+  // [Route("v{v:apiVersion}/products")]
+  [Route("products")]
   [ApiController]
-  public class ProductsController : ControllerBase
+  public class ProductsV1_0Controller : ControllerBase
   {
     private readonly ShopContext _context;
-    public ProductsController(ShopContext context)
+    public ProductsV1_0Controller(ShopContext context)
     {
       _context = context;
       _context.Database.EnsureCreated();
@@ -124,4 +127,6 @@ namespace HPlusSport.API.Controllers
       return product;
     }
   }
+
+
 }
